@@ -4,7 +4,7 @@ These files implement the oprf used in the paper <u>Blazing Fast PSI from Improv
 
 ```
 git clone --recursive https://github.com/osu-crypto/libOTe.git
-cd libOTE
+cd libOTe
 mkdir -p out/build/linux
 cmake -S . -B out/build/linux -DENABLE_ASAN=ON -DFETCH_AUTO=ON -DENABLE_RELIC=ON -DENABLE_ALL_OT=ON -DENABLE_BOOST=ON -DENABLE_SILENT_VOLE=ON
 cmake --build out/build/linux
