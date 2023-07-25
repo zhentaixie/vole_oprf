@@ -25,7 +25,7 @@ git clone https://github.com/yuchen1024/Kunlun
 
 ## oprf
 
-Place the oprf folder in Kunlun, modify to ensure that the path of libOTe in okvs and CMakeLists in the header file is correct,
+Place the oprf folder in Kunlun, modify to ensure that the path of libOTe in CMakeLists and the header files of okvs are correct,
 
 ```
 mkdir build
